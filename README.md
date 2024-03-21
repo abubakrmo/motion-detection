@@ -22,12 +22,23 @@ open with a live server or through any method you deem suitable.
 The web application was hosted using the CIS devweb server, which necessitated a connection to the server by utilizing cyberduck after which the relevant files for the web application were uploaded to the server. A further connection was made to the server in Visual studio code by using the SFTP extension which allowed any change made to the files in the workspace to automatically update in the server. The sensor can be accessed <a href="https://devweb2022.cis.strath.ac.uk/~ywb22232/index.html">here</a>.
 
 <h1>Extending the Sensor </h1>
-•	Expand sensor integration: There is potential to explore further integration of other in-built sensors such as the magnetometer and accelerometer sensor. Investigating their applications in exercise tracking could provide a more comprehensive understanding of user movements and enhance the overall accuracy of the sensor-based system.
-•	Enhance user experience: Implementing real-time audio feedback on the web client interface. This could involve providing audio cues synchronized with the gyroscope data to guide users through correct movement patterns during their workouts.
-•	Cloud integration for data storage
-•	Integration with wearable devices
-•	Enhance sensor accuracy for all exercise types
-•	Expand exercise catalogue: Expanding the range of supported exercises to offer users a more comprehensive workout experience. 
+<ul>
+  <li>
+    Expand sensor integration: There is potential to explore further integration of other in-built sensors such as the magnetometer and accelerometer sensor. Investigating their applications in exercise tracking could provide a more comprehensive understanding of user movements and enhance the overall accuracy of the sensor-based system.
+  </li>
+  <li>
+    Enhance user experience: Implementing real-time audio feedback on the web client interface. This could involve providing audio cues synchronized with the gyroscope data to guide users through correct movement patterns during their workouts.
+  </li>
+  <li>Cloud integration for data storage</li>
+  <li>Integration with wearable devices</li>
+  <li>Enhance sensor accuracy for all exercise types</li>
+  <li>Expand exercise catalogue: Expanding the range of supported exercises to offer users a more comprehensive workout experience. </li>
+</ul>
+
+
+
+
+
 
 
 
