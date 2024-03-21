@@ -1,0 +1,48 @@
+img{
+    width: 22%;
+}
+nav{
+    background-color: rgb(195, 161, 255);
+}
+li{
+    list-style-type: none;
+}
+#exerciseOne{
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    border: 10px outset rgb(195, 161, 255);
+
+}
+#exerciseTwo{
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    border: 10px outset rgb(195, 161, 255);
+
+}
+#exerciseThree{
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    border: 10px outset rgb(195, 161, 255);
+
+}
+
+#movecountOne{
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+}
+
+#movecountTwo{
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+}
+
+#movecountThree{
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+}

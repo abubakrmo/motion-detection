@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareFit</title>
+    <link rel="icon" type="image/png" sizes="180x180" href="./favicon_io/favicon-32x32.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="carefit.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="./images/Carefit-removebg-preview.png" alt="" class="rounded-pill">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcontainer">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navcontainer">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="education.html" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="activities.html" class="nav-link">Activities</a></li>
+                    <li class="nav-item"><a href="progress.html" class="nav-link active">Progress</a></li>
+                    <li class="nav-item"><a href="more.html" class="nav-link">More</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <div class="container" style="padding-top: 90px;">
+        <h1>Progress</h1>
+        <p id="carers">
+        </p>
+    </div>
+    <script src="carefit.js"></script>
+</body>
+</html>
+
+<script>
+     //MOTION EVENT
+    // if (typeof (DeviceMotionEvent as any).requestPermission === 'function') {
+    //     (DeviceMotionEvent as any).requestPermission()
+    //     .then((state) => {
+    //         if (state === 'granted') {
+    //         window.addEventListener('devicemotion', handleMotionEvent);
+    //         function handleMotionEvent(event) {
+    //             const x = event.accelerationIncludingGravity.x;
+    //             const y = event.accelerationIncludingGravity.y;
+    //             const z = event.accelerationIncludingGravity.z;
+
+    //             // Display data in webpage
+    //             document.getElementById('accelerationX').innerHTML = `Acceleration Including Gravity X: ${Math.round(x)}`;
+    //             document.getElementById('accelerationY').innerHTML = `Acceleration Including Gravity Y: ${Math.round(y)}`;
+    //             document.getElementById('accelerationZ').innerHTML = `Acceleration Including Gravity Z: ${Math.round(z)}`;
+
+
+    //             if ((Math.round(z) === -2 && Math.round(y) === -10) || (Math.round(z) === -3 && Math.round(y) === -9) )  {
+    //                 deviceMoveCount++;
+    //                 document.getElementById('movecount').innerHTML = ` MOVE COUNT: ${deviceMoveCount}`
+    //             }
+
+    //           }
+    //         } else {
+    //         console.error('Request to access the motion was rejected');
+    //         }
+    //     })
+    //     .catch(console.error);
+    // } else {
+    //     // Devices that do not require permission
+    //     window.addEventListener('devicemotion', handleMotionEvent);
+    //     function handleMotionEvent(event) {
+    //         const x = event.accelerationIncludingGravity.x;
+    //         const y = event.accelerationIncludingGravity.y;
+    //         const z = event.accelerationIncludingGravity.z;
+    //     // Display data in webpage
+    //         document.getElementById('accelerationX').innerHTML = `Acceleration Including Gravity X: ${Math.round(x)}`;
+    //         document.getElementById('accelerationY').innerHTML = `Acceleration Including Gravity Y: ${Math.round(y)}`;
+    //         document.getElementById('accelerationZ').innerHTML = `Acceleration Including Gravity Z: ${Math.round(z)}`;
+
+
+
+    //     }
+    // }
+// }
+
+
+
+
+
+
+
+</script>
