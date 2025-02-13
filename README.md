@@ -19,7 +19,7 @@ open with a live server or through any method you deem suitable.
 </ul>
 
 <h1>Hosting</h1>
-The web application was hosted using the CIS devweb server, which necessitated a connection to the server by utilizing cyberduck after which the relevant files for the web application were uploaded to the server. A further connection was made to the server in Visual studio code by using the SFTP extension which allowed any change made to the files in the workspace to automatically update in the server. The sensor can be accessed <a href="https://devweb2022.cis.strath.ac.uk/~ywb22232/index.html">here</a>.
+The web application was hosted using the CIS devweb server, which necessitated a connection to the server by utilizing cyberduck after which the relevant files for the web application were uploaded to the server. A further connection was made to the server in Visual studio code by using the SFTP extension which allowed any change made to the files in the workspace to automatically update in the server. The sensor can be accessed <a href="https://master.d1nxw5m83evnbx.amplifyapp.com/">here</a>.
 
 <h1>Extending the Sensor </h1>
 <ul>
